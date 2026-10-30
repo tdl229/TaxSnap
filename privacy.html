@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Privacy Policy (TaxSnap 1099: Receipt Scanner)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 16px 0;
+            background: #fff;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 10px 12px;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        th {
+            background-color: #eaeaea;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Privacy Policy</h1>
+    <h2>TaxSnap 1099: Receipt Scanner</h2>
+    <p><em>[Last Amended: October 30, 2026]</em></p>
+    <p>This Privacy Policy (“<strong>Privacy Policy</strong>”) is an integral part of our <a href="./terms.html">End
+            User License Agreement</a> (“<strong>EULA</strong>”), and governs the processing and transfer of data
+        collected or processed when you use or access the TaxSnap 1099: Receipt Scanner mobile application
+        (“<strong>we</strong>”, “<strong>us</strong>” or “<strong>our</strong>”) or our services, all as detailed in the
+        applicable EULA (respectively the “<strong>App</strong>” and “<strong>Service</strong>”).
+    </p>
+    <p>Any capitalized terms not defined herein shall have the meaning ascribed to them in the EULA.</p>
+    <p>This Privacy Policy explains what data we may collect from you, how such data is processed on your device or
+        used, how we safeguard it, and how you may exercise your rights related to your Personal Data (as defined
+        below), including where applicable under the EU General Data Protection Regulation (“<strong>GDPR</strong>”),
+        the Brazilian General Data Protection Law (“<strong>LGPD</strong>”), the California Consumer Privacy Act
+        (“<strong>CCPA</strong>”), and other applicable US state privacy laws as further detailed below.</p>
+    <p>If you have any questions regarding this Privacy Policy or our data practices, you are welcome to contact us at:
+        <a href="mailto:tdl229121327@163.com">tdl229121327@163.com</a>
+    </p>
+
+    <h1 id="iprivacy-notice">I. <strong>PRIVACY NOTICE</strong></h1>
+
+    <h2 id="apolicy-amendments">A. <strong>POLICY AMENDMENTS:</strong></h2>
+    <p>We reserve the right to amend this Policy from time to time, at our sole discretion. The most recent version of
+        the Policy will always be posted on this page. The updated date of the Policy will be reflected in the “Last
+        Amended” heading. We will provide notice to you if these changes are material, and, where required by
+        applicable law, we will obtain your consent. We recommend you review this Policy periodically to ensure that
+        you understand our most updated privacy practices.</p>
+
+    <h2 id="bcontact-information">B. <strong>CONTACT INFORMATION:</strong></h2>
+    <p>You may contact us and our Data Protection Officer (DPO) as follows:</p>
+    <ul>
+        <li><strong>By email: <a href="mailto:tdl229121327@163.com">tdl229121327@163.com</a></strong></li>
+    </ul>
+
+    <h2 id="c-data-sets-we-collect-and-for-what-purpose">C. <strong>DATA SETS WE COLLECT AND FOR WHAT PURPOSE:</strong></h2>
+    <p>TaxSnap 1099: Receipt Scanner is built with a strict <strong>zero-server, zero-bank-link, 100% on-device privacy
+            architecture</strong>. We do not require you to register an account, provide your Social Security Number
+        (SSN) or Employer Identification Number (EIN), or connect your bank accounts or credit cards (we never use Plaid
+        or third-party financial feed aggregators). We do not operate backend servers that collect, upload, or store
+        your receipt images, OCR text, mileage logs, or tax deduction records.</p>
+
+    <p><strong><em>Non-Personal Data</em></strong></p>
+    <p>During your interaction with the App, we process non-identifiable preference and configuration settings locally
+        on your device (“<strong>Non-Personal Data</strong>”), such as your selected interface language (across 19
+        supported locales), financial accent color theme, light/dark appearance mode, user-configured estimated tax
+        bracket percentage, and standard per-mile deduction rate.</p>
+
+    <p><strong><em>Personal Data &amp; Device Permissions</em></strong></p>
+    <p>We do not knowingly collect or process any Special Categories of Personal Data (such as racial or ethnic origin,
+        political opinions, religious beliefs, genetic data, biometric data, or health data). Below is a detailed
+        breakdown of the data sets and iOS device permissions involved when you use the App:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>DATA SET / PERMISSION</th>
+                <th>PURPOSE AND OPERATIONS</th>
+                <th>LAWFUL BASIS &amp; STORAGE</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Local Expense Ledger, Receipt Images &amp; Mileage Logs</strong><br>(<code>SwiftData</code>
+                    On-Device Database)</td>
+                <td>When you log a business write-off or mileage trip, the App stores the expense summary, merchant
+                    name, transaction date, gross/deductible amounts, Schedule C category, attendee/client name (“Who”),
+                    business purpose note (“Why”), trip origin/destination/distance, and attached receipt image solely to
+                    calculate your estimated tax deductions and organize your audit ledger.</td>
+                <td>Processed and stored <strong>100% locally inside your device’s sandboxed storage</strong> based on
+                    your explicit action. <strong>We never upload, transmit, or store your receipts or tax records on
+                        any external server.</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Camera Permission</strong><br>(<code>NSCameraUsageDescription</code> / Apple
+                    <code>VisionKit</code> &amp; <code>Vision</code>)</td>
+                <td>When you tap “Scan Receipt”, the App uses your device’s camera to capture photos of paper business
+                    receipts and runs Apple’s built-in on-device <code>Vision</code> optical character recognition (OCR)
+                    engine to extract merchant, date, and amount text locally.</td>
+                <td>Processed strictly on your device upon your explicit permission and action. No camera frames or
+                    extracted receipt text ever leave your device. You may revoke Camera access anytime in iOS Settings.
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Photo Library Permission</strong><br>(<code>NSPhotoLibraryUsageDescription</code> /
+                    <code>PhotosPicker</code>)</td>
+                <td>When you tap “Import Screenshot”, the App accesses only the specific invoice screenshot or receipt
+                    photo you explicitly select from your Photo Library so on-device <code>Vision</code> OCR can parse
+                    the expense details and attach the image to your local record.</td>
+                <td>Processed strictly on your device based on your explicit selection. We do not scan or access your
+                    broader Photo Library in the background.</td>
+            </tr>
+            <tr>
+                <td><strong>Local Notifications</strong><br>(<code>UNUserNotificationCenter</code> / Quarterly Tax
+                    Reminders)</td>
+                <td>If you toggle on “Quarterly Estimated Tax Deadline Alerts” in Settings, the App schedules four
+                    recurring local calendar notifications on your device (April 15, June 15, September 15, and January
+                    15).</td>
+                <td>Scheduled locally on your device via iOS system notifications based on your opt-in consent. No
+                    push notification tokens are sent to external servers.</td>
+            </tr>
+            <tr>
+                <td><strong>User-Initiated PDF &amp; CSV Exports</strong><br>(iOS Share Sheet / <code>ShareLink</code>)
+                </td>
+                <td>When you export an Official Accountant Audit PDF Package, a Single Expense Audit Voucher PDF, or a
+                    Schedule C CSV Spreadsheet, the file is rendered locally in temporary device memory and handed to
+                    the standard iOS Share Sheet.</td>
+                <td>Shared exclusively with the destination, app, or recipient (such as Files, iCloud Drive, AirDrop, or
+                    your CPA’s email) that you explicitly choose at the time of export.</td>
+            </tr>
+            <tr>
+                <td><strong>In-App Payment &amp; Subscription Information</strong><br>(Apple StoreKit 2)</td>
+                <td>When you purchase a Pro subscription (Monthly or Annual) or the one-time Lifetime Tax Vault license,
+                    or restore purchases, all payment processing is handled directly by Apple via StoreKit 2 (<a
+                        href="https://www.apple.com/legal/privacy/en-ww/">Apple Privacy Policy</a>). The App verifies
+                    cryptographic entitlements locally via StoreKit 2 (<code>Transaction.currentEntitlements</code> /
+                    <code>Transaction.updates</code>) to unlock Pro features.</td>
+                <td>Processed to perform our contract with you. We do not collect, access, or store your credit card
+                    numbers, bank account details, Apple ID credentials, or billing address.</td>
+            </tr>
+            <tr>
+                <td><strong>Contact Information</strong><br>(Voluntary Support Emails)</td>
+                <td>If you voluntarily contact us via email at <a
+                        href="mailto:tdl229121327@163.com">tdl229121327@163.com</a>, we will receive your email address
+                    and any information you choose to include in your message.</td>
+                <td>Used solely to respond to your support inquiry and resolve technical issues, based on our legitimate
+                    interest and your consent.</td>
+            </tr>
+            <tr>
+                <td><strong>Crash &amp; Diagnostic Logs</strong></td>
+                <td>In the event of an unexpected app error, standard anonymized iOS diagnostic / crash logs (such as OS
+                    version, device type, and stack trace) may be provided via Apple’s standard developer diagnostics if
+                    you have opted into sharing diagnostics with app developers in iOS Settings.</td>
+                <td>Legitimate interest in maintaining stability, fixing bugs, and optimizing App performance.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2 id="d-how-we-collect-your-information">D. <strong>HOW WE COLLECT YOUR INFORMATION:</strong></h2>
+    <ul>
+        <li><strong>Locally on Your Device</strong>: All scanned receipts, imported invoice screenshots, Schedule C
+            expense entries, mileage logs, and tax rate settings are stored locally inside your device’s sandboxed
+            <code>SwiftData</code> container and are automatically removed if you uninstall the App.</li>
+        <li><strong>Through System Permissions</strong>: Camera, Photo Library, and Local Notification permissions are
+            requested only when you actively trigger the corresponding feature. Note that the App does
+            <strong>not</strong> request GPS Location permissions for mileage logging.</li>
+        <li><strong>Voluntarily</strong>: When you email our technical support team directly.</li>
+    </ul>
+
+    <h2 id="e-sdk--tracking-technologies">E. <strong>SDK &amp; THIRD-PARTY SERVICES:</strong></h2>
+    <p>We do <strong>not</strong> integrate third-party behavioral advertising SDKs, cross-app tracking SDKs, cloud OCR
+        APIs, or financial account aggregation SDKs (such as Plaid). The App relies exclusively on native Apple iOS
+        system frameworks:</p>
+    <ul>
+        <li><strong>Apple On-Device Frameworks (<code>Vision</code>, <code>VisionKit</code>, <code>SwiftData</code>,
+                <code>UNUserNotificationCenter</code>)</strong>: Execute all document scanning, neural OCR text
+            recognition, database persistence, PDF rendering, and deadline reminders locally on your device.</li>
+        <li><strong>Apple StoreKit 2 (In-App Purchases)</strong>: Used for subscription and lifetime license billing,
+            introductory free trial eligibility checks, and purchase restoration. Apple’s Privacy Policy: <a
+                href="https://www.apple.com/legal/privacy/en-ww/">https://www.apple.com/legal/privacy/en-ww/</a></li>
+    </ul>
+
+    <h2 id="f-data-sharing">F. <strong>DATA SHARING – CATEGORIES OF RECIPIENTS:</strong></h2>
+    <p>We do not sell, rent, or trade your Personal Data or financial records to third parties. Information may only be
+        shared in the following limited circumstances:</p>
+    <ul>
+        <li><strong>User-Initiated Exports</strong>: When you explicitly export and share a PDF Audit Dossier, PDF
+            Voucher, or CSV spreadsheet with your accountant or chosen storage service via the iOS Share Sheet.</li>
+        <li><strong>Platform Providers (Apple)</strong>: For processing App Store in-app purchases/subscriptions and
+            handling refund requests in accordance with App Store policies.</li>
+        <li><strong>Legal &amp; Regulatory Compliance</strong>: If required by applicable law, judicial proceeding, or
+            verified law enforcement request to protect the rights, property, or safety of the Company, our users, or
+            others (noting that we do not possess copies of your local on-device tax database).</li>
+        <li><strong>Corporate Transactions</strong>: In the event of a merger, acquisition, or sale of assets, where the
+            acquiring entity will assume the obligations described in this Privacy Policy.</li>
+    </ul>
+
+    <h2 id="g-data-retention">G. <strong>DATA RETENTION:</strong></h2>
+    <p>All deduction records, attached receipt images, mileage logs, and tax bracket settings reside locally on your
+        device. You can edit or permanently delete any individual expense record and its attached receipt photo at any
+        time inside the App, or delete all local App data immediately by uninstalling the App from your device. Support
+        emails sent to us are retained only as long as necessary to resolve your inquiry or comply with applicable legal
+        obligations.</p>
+
+    <h2 id="h-security-measures">H. <strong>SECURITY MEASURES:</strong></h2>
+    <p>We implement technical and architectural safeguards designed to protect your sensitive financial records,
+        including isolating all receipt images and <code>SwiftData</code> records inside the iOS hardware-backed
+        application sandbox, performing 100% of OCR extraction offline on your device without network transmission, and
+        using Apple’s cryptographically signed StoreKit 2 framework for license verification. If you have any security
+        concerns, please contact us at <a href="mailto:tdl229121327@163.com">tdl229121327@163.com</a>.</p>
+
+    <h2 id="i-international-data-transfer">I. <strong>INTERNATIONAL DATA TRANSFER:</strong></h2>
+    <p>Because your receipt archive and tax deduction ledger are stored strictly locally on your device, we do not
+        transfer your financial records to external servers. When you interact with Apple App Store billing services via
+        StoreKit 2, your transaction requests are processed by Apple in accordance with its global infrastructure and
+        applicable data protection safeguards (including EU Standard Contractual Clauses where applicable).</p>
+
+    <h2 id="j-user-rights">J. <strong>USER RIGHTS:</strong></h2>
+    <p>Depending on your jurisdiction (including under the GDPR, LGPD, CCPA, and other privacy laws), you may have the
+        right to: (i) request access to or information about any Personal Data we hold; (ii) request correction or
+        deletion of your Personal Data; (iii) restrict or object to processing; (iv) data portability (which you can
+        also exercise directly anytime via the App’s built-in CSV and PDF export tools); and (v) withdraw consent at any
+        time. To exercise any of these rights regarding support communications, please contact us at: <a
+            href="mailto:tdl229121327@163.com">tdl229121327@163.com</a>. You also have the right to lodge a complaint
+        with your local data protection supervisory authority.</p>
+
+    <h2 id="k-opt-out-options">K. <strong>OPT-OUT OPTIONS:</strong></h2>
+    <p>We do not sell your Personal Data or engage in cross-context behavioral advertising. You can revoke Camera,
+        Photos, or Notification permissions at any time in your device’s <strong>Settings &gt; Privacy &amp;
+            Security</strong> or <strong>Settings &gt; Notifications</strong>, and disable Quarterly Estimated Tax
+        Deadline Alerts directly inside the App’s <strong>Tax Profile</strong> tab.</p>
+
+    <h2 id="l-eligibility-and-children-privacy">L. <strong>ELIGIBILITY AND CHILDREN’S PRIVACY:</strong></h2>
+    <p>The Services are designed for adult self-employed professionals and are not intended for use by children under
+        the age of 16 in the EEA or under the age of 13 in the United States (or the applicable age of digital consent
+        in your jurisdiction), and we do not knowingly collect Personal Data from children. If you believe a child has
+        provided us with Personal Data via email, please contact us at <a
+            href="mailto:tdl229121327@163.com">tdl229121327@163.com</a> and we will promptly delete such information.
+    </p>
+
+    <h1 id="ii-jurisdiction-specific-notices">II. <strong>JURISDICTION-SPECIFIC NOTICES</strong></h1>
+
+    <h2 id="a-california">A. <strong>ADDITIONAL NOTICE TO CALIFORNIA RESIDENTS (CCPA / CPRA)</strong></h2>
+    <p>Under the California Consumer Privacy Act as amended by the CPRA, California residents have the right to know
+        what Personal Information is collected, request deletion or correction of Personal Information, and opt out of
+        the “sale” or “sharing” of Personal Information. We do <strong>not</strong> sell or share your Personal
+        Information as defined under the CCPA/CPRA, nor do we collect or store your bank credentials or Sensitive
+        Personal Information on external servers. To submit a verifiable consumer request, please email us at <a
+            href="mailto:tdl229121327@163.com">tdl229121327@163.com</a>. We do not discriminate against any user for
+        exercising their privacy rights.</p>
+
+    <h2 id="b-us-states">B. <strong>ADDITIONAL NOTICE TO COLORADO, VIRGINIA, CONNECTICUT, UTAH &amp; NEVADA
+            RESIDENTS</strong></h2>
+    <p>If you are a resident of Colorado (CPA), Virginia (VCDPA), Connecticut (CDPA), Utah (UCPA), or Nevada, you have
+        the right to confirm whether we process your Personal Data, access and delete your Personal Data, obtain a
+        portable copy of your Personal Data, and opt out of targeted advertising, profiling, or the sale of Personal
+        Data. As stated above, we do not sell your Personal Data, profile users, or conduct targeted advertising. You
+        may submit any request or appeal a decision by contacting us at <a
+            href="mailto:tdl229121327@163.com">tdl229121327@163.com</a>. We will respond within 45 days in accordance
+        with applicable state laws.</p>
+
+    <h2 id="m-refund-requests">C. <strong>USER CONSENT FOR DATA PROCESSING RELATED TO REFUND REQUESTS</strong></h2>
+    <p>In accordance with the Apple App Store’s refund policy, when a user initiates a refund request, Apple may
+        request subscription consumption information (<code>CONSUMPTION_REQUEST</code>). In such cases, we may provide
+        Apple with non-personal subscription-related consumption status to assist Apple in evaluating the refund
+        request, strictly in compliance with Apple’s App Store policies and applicable privacy laws. By using the App
+        and purchasing a subscription or in-app purchase, you consent to this limited processing as required by the
+        Apple App Store.</p>
+</body>
+
+</html>
